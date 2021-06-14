@@ -15,20 +15,21 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     }
+    var output = document.querySelector('.numbers');
+    output.innerHTML = numeriRandom;
 
     /* Ora si crea il timer, che deve durare 30 secondi per poi far sparire l'alert
     quindi anche l'alert deve stare dentro al conto del tempo.
     */
     // Userò il setTimeout perchè e qualcosa che succede dopo un tot di tempo e non
     // che deve succeder per un tot di volte dopo un tot di tempo
-    document.addEventListener('click', function () {
-        setTimeout(myfunction(), 1000);
-        function myfunction() {
-            
-            
-        }
 
-    });
+    var boxScomparsa = document.querySelector('.start');
+    setTimeout(function(){
+        boxScomparsa.parentNode.removeChild(boxScomparsa);
+    },30000);
+
+
 
 
 
