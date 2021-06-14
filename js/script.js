@@ -34,17 +34,11 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('hai indovinato: ' + rightNumber + 'In totale quindi: ' +  ' ' + rightNumber.length);
     },1000);
 
-    
-
-
-
 
     // var boxScomparsa = document.querySelector('.start');
     // setTimeout(function () {
     //     boxScomparsa.parentNode.removeChild(boxScomparsa);
     // }, 30000);
-
-
 
 
 
